@@ -1,0 +1,54 @@
+header {
+  position: absolute;
+  background-color: rgb(255, 0, 0);
+  color: blanchedalmond;
+  text-align: center;
+  width: 80%;
+  height: 15%;
+  top: 5%;
+  left: 10%;
+}
+
+nav {
+  position: absolute;
+  background-color: cyan;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  width: 80%;
+  height: 8%;
+  top: 20%;
+  left: 10%;
+}
+
+#section1 {
+  position: absolute;
+  background-color: rgb(15, 133, 0);
+  color: blanchedalmond;
+  text-align: left;
+  width: 30%;
+  height: 50%;
+  top: 28%;
+  right: 60%;
+}
+
+#section2 {
+  position: absolute;
+  background-color: rgb(217, 255, 0);
+  color: rgb(0, 0, 0);
+  text-align: left;
+  width: 50%;
+  height: 50%;
+  top: 28%;
+  left: 40%;
+}
+
+footer {
+  position: absolute;
+  background-color: rgb(117, 117, 117);
+  color: blanchedalmond;
+  text-align: center;
+  width: 80%;
+  height: 10%;
+  top: 78%;
+  left: 10%;
+}
