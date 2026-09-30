@@ -1,0 +1,113 @@
+Hospital Rosa
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário 2</title>
+  </head>
+  <body>
+    <!-- Formulários -->
+    <form action="" method="get">
+      <!-- Formulário de texto -->
+      <fieldset>
+        <legend>Dados pessoais</legend>
+        <br />
+
+        <label for="nome">Nome completo:</label>
+        <input
+          type="text"
+          name="nome"
+          id="nome"
+          required
+          minlength="2"
+          maxlength="20"
+          placeholder="Seu nome"
+        />
+        <br /><br />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          required
+          minlength="4"
+          maxlength="18"
+          placeholder="Seu email"
+        />
+        <br />
+        <br />
+
+        <label for="numero">Idade:</label>
+        <input
+          type="number"
+          name="numero"
+          id="numero"
+          required
+          min="0"
+          max="100"
+        />
+        <br />
+        <br />
+
+        <label for="data">Data da consulta:</label>
+        <input type="date" name="data" id="data" required />
+        <br />
+        <br />
+
+        <label for="">Especialidade Médica:</label>
+        <select>
+          <option value="0">--Especialidade--</option>
+          <option value="1">Clínica Geral</option>
+          <option value="2">Cardiologista</option>
+          <option value="3">Dermatologista</option>
+          <option value="4">Pediatria</option>
+        </select>
+        <br />
+        <br />
+
+        <label for="">Plano de Saúde:</label>
+        <select>
+          <option value="5">--Seu Plano--</option>
+          <option value="6">Particular</option>
+          <option value="7">Unimed</option>
+          <option value="8">Amil</option>
+          <option value="9">Bradesco Saúde</option>
+        </select>
+        <br />
+        <br />
+
+        <label for="consulta">Primeira consulta?</label>
+        <input type="radio" name="consulta" id="consulta" /> Sim
+        <input type="radio" name="consulta" id="consulta" /> Não
+
+        <!-- checkbox -->
+        <br /><br />
+        <label for="check">Acessibilidade</label>
+        <br />
+        <input type="checkbox" name="Acessibilidade" id="check" /> Preciso de
+        Acessibilidade
+        <br />
+        <input type="checkbox" name="Rampa" id="check" /> Rampa de acesso
+        <br />
+        <input type="checkbox" name="Interprete" id="check" /> Interprete de
+        Libras
+        <br />
+        <input type="checkbox" name="CaoGuia" id="check" /> Espaço para cão guia
+        <br />
+        <input type="checkbox" name="Elevador" id="check" /> Elevador
+        <br />
+
+        <br />
+        <label for="file">Guia Médica ou Encaminhamento:</label>
+        <input type="file" name="guia" id="guia" accept=".pdf, .docx" />
+
+        <p>
+          <input type="submit" value="Enviar" />
+          <input type="reset" value="Limpar" />
+        </p>
+      </fieldset>
+    </form>
+  </body>
+</html>
