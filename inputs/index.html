@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inputs/Formulários</title>
+  </head>
+  <body>
+    <!-- tag form -->
+    <form>
+      <!-- tipo text -->
+      <!-- required - requerido (usuario precisa passar um valor) -->
+      <label for="nome">Digite seu nome</label>
+      <input
+        type="text"
+        name="nome"
+        id="nome"
+        placeholder="seu nome"
+        required
+      />
+      <br />
+
+      <!-- tipo number -->
+      <label for="numero">Digite um número:</label>
+      <input type="number" name="numero" id="numero" min="0" max="100" />
+      <br />
+
+      <!-- tipo email -->
+      <label for="email">Digite seu email:</label>
+      <input type="email" name="email" id="email" required />
+
+      <!-- tipo senha -->
+      <!-- minlength e maxlength é o min e max de caracteres na senha -->
+      <label for="">Digite sua senha</label>
+      <input
+        type="password"
+        name="senha"
+        id="senha"
+        required
+        minlength="8"
+        maxlength="20"
+      />
+
+      <p>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Limpar dados" />
+      </p>
+    </form>
+  </body>
+</html>

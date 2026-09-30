@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario 2</title>
+  </head>
+  <body>
+    <!-- lembrete: para colocar comentários, precione o ctrl + ; -->
+    <!-- formulário -->
+    <form action="" method="get">
+      <!-- caixinha do formulário -->
+      <fieldset>
+        <!-- titulo do formulário -->
+        <legend>Dados Pessoais</legend>
+        <!-- formulário de texto -->
+        <label for="nome">Digite seu nome:</label>
+        <input
+          type="text"
+          name="nome"
+          id="nome"
+          placeholder="Nome"
+          required
+          minlength="2"
+          maxlength="20"
+        />
+        <br />
+        <!-- formulário de email -->
+        <label for="email">Digite seu email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email"
+          required
+          minlength="4"
+          maxlength="10"
+        />
+        <br />
+        <!-- formulario de numero -->
+        <label for="numero">Digite dua idade:</label>
+        <input
+          type="number"
+          name="numero"
+          id="numero"
+          step="0.1"
+          value="0"
+          required
+          min="0"
+          max="10"
+        />
+        <br />
+        <!-- formulário de senha -->
+        <label for="senha">Digite sua senha:</label>
+        <input
+          type="password"
+          name="senha"
+          id="senha"
+          requerid
+          minlength="8"
+          maxlength="10"
+        />
+        <br />
+
+        <!-- checkbox -->
+        <label for="check">Aceita os termos?</label>
+        <input type="checkbox" name="check" id="check" checked />
+        <br />
+
+        <!-- tipo radio -->
+        <label for="contaP">Conta Pessoal</label>
+        <input type="radio" name="conta" id="contaP" /> Sim
+
+        <label for="contaT"></label>
+        <input type="radio" name="conta" id="contaT" /> Talvez
+
+        <label for="contaJ"></label>
+        <input type="radio" name="conta" id="contaJ" /> Não
+
+        <p>
+          <!-- botão de enviar - submit -->
+          <input type="submit" value="Enviar" />
+          <!-- botão de limpar - reset -->
+          <input type="reset" value="Limpar" />
+        </p>
+      </fieldset>
+    </form>
+  </body>
+</html>
