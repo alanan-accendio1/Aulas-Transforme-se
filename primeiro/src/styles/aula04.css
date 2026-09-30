@@ -1,0 +1,21 @@
+#caixa1 {
+  /* Tamanho */
+  width: 200px;
+  /* Altura */
+  height: 200px;
+  /* cor de fundo */
+  background-color: red;
+
+  /* margin: 10px 20px; */
+  /* margin para todos os lados em específico */
+  /* margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px; */
+}
+
+#caixa2 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
