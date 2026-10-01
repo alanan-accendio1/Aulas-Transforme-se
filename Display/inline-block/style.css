@@ -1,0 +1,16 @@
+.elemento {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+
+#div1 {
+  background-color: red;
+}
+#div2 {
+  display: none;
+  background-color: blue;
+}
+#div3 {
+  background-color: green;
+}
