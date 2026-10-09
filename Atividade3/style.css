@@ -1,0 +1,203 @@
+/* Sempre começar pela base */
+
+/* 1 Reset CSS */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* 2 Container principal */
+
+.container {
+  position: relative;
+  width: 90%;
+  height: 600px;
+  border: 5px solid rgb(0, 255, 255);
+  margin: 1% auto;
+}
+
+/* 3 Header */
+
+#cabecalho {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background-color: #00054b;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cabecalho h1 {
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+/* 4 Nav principal */
+
+nav {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  background-color: #005a75;
+  color: white;
+}
+
+/* 5 Container2 */
+
+.container2 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+}
+
+/* 6 Div links */
+
+#links {
+  position: relative;
+  width: 20%;
+  height: 400px;
+  background-color: #006d8f;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+
+/* 7 Main */
+
+main {
+  position: relative;
+  width: 70%;
+  height: 300px;
+}
+
+/* 8 Section */
+
+section {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #008fbb;
+  color: white;
+  gap: 10px;
+}
+
+/* 9 Aside */
+
+aside {
+  position: relative;
+  width: 20%;
+  height: 400px;
+  background-color: #006d8f;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+
+/* 10 Rodapé */
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(0, 47, 75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+footer h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+/* Section h2 */
+
+section h2 {
+  font-size: 23px;
+}
+
+/* Header/Cabeçalho 2 */
+
+#cabecalho2 {
+  position: relative;
+  width: 93%;
+  height: 30px;
+  background-color: #006d8f;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Div */
+
+#div1 {
+  position: relative;
+  width: 93%;
+  height: 120px;
+  background-color: rgb(0, 129, 161);
+  display: flex;
+  justify-content: center;
+}
+
+/* Parágrafo */
+
+p {
+  position: relative;
+  width: 93%;
+  height: 40px;
+  background-color: rgb(68, 190, 228);
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+/* Container 3 */
+
+.container3 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 27px;
+}
+
+/* Divs */
+
+#div3 {
+  background-color: #005772;
+}
+#div4 {
+  background-color: #004458;
+}
+
+#div2 {
+  position: relative;
+  width: 26%;
+  height: 100px;
+  display: flex;
+  color: white;
+  background-color: #006d8f;
+  justify-content: center;
+}
+
+#div3,
+#div4 {
+  position: relative;
+  width: 30%;
+  height: 100px;
+  display: flex;
+  color: white;
+  justify-content: center;
+}
