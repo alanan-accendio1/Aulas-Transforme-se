@@ -1,0 +1,69 @@
+.container {
+  width: 90%;
+  margin: 2% auto;
+  position: relative;
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "cabecalho cabecalho"
+    "navegacao navegacao"
+    "principal principal"
+    "rodape rodape";
+}
+
+header {
+  grid-area: cabecalho;
+  position: relative;
+  width: 100%;
+  height: 110px;
+  background-color: red;
+  display: flex;
+  text-align: center;
+}
+
+nav {
+  grid-area: navegacao;
+  position: relative;
+  width: 100%;
+  height: 70px;
+  background-color: aquamarine;
+}
+
+main {
+  grid-area: principal;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: royalblue;
+  display: flex;
+}
+
+.container2 {
+  width: 100%;
+  background-color: chocolate;
+  display: flex;
+}
+
+#sec1 {
+  position: relative;
+  width: 30%;
+  height: 350px;
+  background-color: darkgreen;
+}
+
+#sec2 {
+  position: relative;
+  width: 70%;
+  height: 350px;
+  background-color: yellow;
+}
+
+footer {
+  position: relative;
+  grid-area: rodape;
+  width: 100%;
+  height: 60px;
+  background-color: gray;
+}
