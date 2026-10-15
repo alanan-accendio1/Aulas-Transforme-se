@@ -96,3 +96,16 @@ footer {
   background-color: #000;
   color: #fff;
 }
+
+/* Responsividade Mobile */
+
+@media (max-width: 400px) {
+  #container {
+    flex-direction: column;
+  }
+
+  #section1,
+  #section2 {
+    width: 100%;
+  }
+}

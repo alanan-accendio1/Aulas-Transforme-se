@@ -142,3 +142,15 @@ footer {
 summary:hover {
   cursor: pointer;
 }
+
+@media (max-width: 381px) {
+  .art,
+  #sec1 {
+    width: 60%%;
+    flex-direction: column;
+  }
+
+  #container {
+    width: 70%;
+  }
+}
