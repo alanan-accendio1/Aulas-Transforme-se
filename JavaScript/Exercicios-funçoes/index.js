@@ -1,4 +1,4 @@
-// Exercicios functions
+// Exercícios functions
 
 // Atividade 1
 const somar = (x, y) => x + y;
