@@ -1,5 +1,5 @@
-// Array é uma variavel que armazena
-// diversos dados
+// Array é uma variavel que
+// armazena diversos dados
 
 // Arrays iniciam sempre no indice 0
 let numeros = [1, 2, 3, 4, 5];
